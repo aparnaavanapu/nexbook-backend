@@ -1,12 +1,12 @@
 const { Client } = require('pg');
 
-const NexBook = new Client({
-    user: "postgres",
-    host: "localhost",
-    database: "NexBook",
-    password: "Nani@123",
-    port: 5432,
-});
+// const NexBook = new Client({
+//     user: "postgres",
+//     host: "localhost",
+//     database: "NexBook",
+//     password: "Nani@123",
+//     port: 5432,
+// });
 
 NexBook.connect((err) => {
     if (err) {
